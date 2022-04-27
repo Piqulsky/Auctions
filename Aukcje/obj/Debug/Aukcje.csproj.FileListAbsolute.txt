@@ -1,0 +1,10 @@
+C:\Users\drummermichal\source\repos\Aukcje\Aukcje\bin\Debug\Aukcje.exe.config
+C:\Users\drummermichal\source\repos\Aukcje\Aukcje\bin\Debug\Aukcje.exe
+C:\Users\drummermichal\source\repos\Aukcje\Aukcje\bin\Debug\Aukcje.pdb
+C:\Users\drummermichal\source\repos\Aukcje\Aukcje\obj\Debug\Aukcje.csprojAssemblyReference.cache
+C:\Users\drummermichal\source\repos\Aukcje\Aukcje\obj\Debug\Aukcje.Form1.resources
+C:\Users\drummermichal\source\repos\Aukcje\Aukcje\obj\Debug\Aukcje.Properties.Resources.resources
+C:\Users\drummermichal\source\repos\Aukcje\Aukcje\obj\Debug\Aukcje.csproj.GenerateResource.cache
+C:\Users\drummermichal\source\repos\Aukcje\Aukcje\obj\Debug\Aukcje.csproj.CoreCompileInputs.cache
+C:\Users\drummermichal\source\repos\Aukcje\Aukcje\obj\Debug\Aukcje.exe
+C:\Users\drummermichal\source\repos\Aukcje\Aukcje\obj\Debug\Aukcje.pdb
