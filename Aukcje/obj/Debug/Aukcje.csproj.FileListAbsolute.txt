@@ -8,3 +8,4 @@ C:\Users\drummermichal\source\repos\Aukcje\Aukcje\obj\Debug\Aukcje.csproj.Genera
 C:\Users\drummermichal\source\repos\Aukcje\Aukcje\obj\Debug\Aukcje.csproj.CoreCompileInputs.cache
 C:\Users\drummermichal\source\repos\Aukcje\Aukcje\obj\Debug\Aukcje.exe
 C:\Users\drummermichal\source\repos\Aukcje\Aukcje\obj\Debug\Aukcje.pdb
+C:\Users\drummermichal\source\repos\Aukcje\Aukcje\obj\Debug\Aukcje.OpenAuctionForm.resources

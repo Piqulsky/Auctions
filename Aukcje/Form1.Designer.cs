@@ -45,6 +45,8 @@
             this.addAuctionButton = new System.Windows.Forms.Button();
             this.openImage = new System.Windows.Forms.OpenFileDialog();
             this.priceInput = new System.Windows.Forms.NumericUpDown();
+            this.openAuctionFile = new System.Windows.Forms.OpenFileDialog();
+            this.saveAuction = new System.Windows.Forms.SaveFileDialog();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -72,8 +74,9 @@
             // otwórzToolStripMenuItem
             // 
             this.otwórzToolStripMenuItem.Name = "otwórzToolStripMenuItem";
-            this.otwórzToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
+            this.otwórzToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.otwórzToolStripMenuItem.Text = "Otwórz";
+            this.otwórzToolStripMenuItem.Click += new System.EventHandler(this.otwórzToolStripMenuItem_Click);
             // 
             // label1
             // 
@@ -199,6 +202,14 @@
             this.priceInput.Size = new System.Drawing.Size(100, 20);
             this.priceInput.TabIndex = 12;
             // 
+            // openAuctionFile
+            // 
+            this.openAuctionFile.FileName = "openAuctionFile";
+            // 
+            // saveAuction
+            // 
+            this.saveAuction.DefaultExt = "auction";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -249,6 +260,8 @@
         private System.Windows.Forms.Button addAuctionButton;
         private System.Windows.Forms.OpenFileDialog openImage;
         private System.Windows.Forms.NumericUpDown priceInput;
+        private System.Windows.Forms.OpenFileDialog openAuctionFile;
+        private System.Windows.Forms.SaveFileDialog saveAuction;
     }
 }
 
