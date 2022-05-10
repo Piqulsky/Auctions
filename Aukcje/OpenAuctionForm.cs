@@ -30,13 +30,16 @@ namespace Aukcje
 
         public OpenAuctionForm(string filePath) :this()
         {
+            string[] splittedFilePath = filePath.Split('\\');
+            this.Text = splittedFilePath[splittedFilePath.Length - 1].Split('.')[0];
             string[] file = File.ReadAllLines(filePath);
-            string[] fileData = file[0].Split(';');
+            string fullFileLines = String.Join("\n", file);
+            string[] fileData = fullFileLines.Split(';');
             nameLabel.Text = fileData[0];
             descriptionLabel.Text = fileData[1];
-            priceLabel.Text = fileData[2];
+            priceLabel.Text = fileData[2] + " zł.";
             saleTypeLabel.Text = fileData[3] == "True" ? "Licytacja" : "Sprzedaż";
-            pictureBox.Image = fileData[4] != null ? LoadBase64(fileData[4]) : null;
+            pictureBox.Image = fileData[4] != "" ? LoadBase64(fileData[4]) : null;
         }
     }
 
