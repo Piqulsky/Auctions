@@ -36,7 +36,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.saleTypeLabel = new System.Windows.Forms.Label();
             this.descriptionLabel = new System.Windows.Forms.RichTextBox();
+            this.bidButton = new System.Windows.Forms.Button();
+            this.bidNumeric = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bidNumeric)).BeginInit();
             this.SuspendLayout();
             // 
             // nameLabel
@@ -57,9 +60,9 @@
             // 
             // pictureBox
             // 
-            this.pictureBox.Location = new System.Drawing.Point(459, 89);
+            this.pictureBox.Location = new System.Drawing.Point(400, 24);
             this.pictureBox.Name = "pictureBox";
-            this.pictureBox.Size = new System.Drawing.Size(292, 242);
+            this.pictureBox.Size = new System.Drawing.Size(388, 398);
             this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox.TabIndex = 3;
             this.pictureBox.TabStop = false;
@@ -105,15 +108,33 @@
             this.descriptionLabel.Location = new System.Drawing.Point(90, 124);
             this.descriptionLabel.Name = "descriptionLabel";
             this.descriptionLabel.ReadOnly = true;
-            this.descriptionLabel.Size = new System.Drawing.Size(340, 298);
+            this.descriptionLabel.Size = new System.Drawing.Size(290, 298);
             this.descriptionLabel.TabIndex = 8;
             this.descriptionLabel.Text = "";
+            // 
+            // bidButton
+            // 
+            this.bidButton.Location = new System.Drawing.Point(281, 20);
+            this.bidButton.Name = "bidButton";
+            this.bidButton.Size = new System.Drawing.Size(75, 23);
+            this.bidButton.TabIndex = 9;
+            this.bidButton.Text = "Licytuj";
+            this.bidButton.UseVisualStyleBackColor = true;
+            // 
+            // bidNumeric
+            // 
+            this.bidNumeric.Location = new System.Drawing.Point(260, 50);
+            this.bidNumeric.Name = "bidNumeric";
+            this.bidNumeric.Size = new System.Drawing.Size(120, 20);
+            this.bidNumeric.TabIndex = 10;
             // 
             // OpenAuctionForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.bidNumeric);
+            this.Controls.Add(this.bidButton);
             this.Controls.Add(this.descriptionLabel);
             this.Controls.Add(this.saleTypeLabel);
             this.Controls.Add(this.label3);
@@ -125,6 +146,7 @@
             this.Name = "OpenAuctionForm";
             this.Text = "Przegląd Aukcji";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bidNumeric)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -140,5 +162,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label saleTypeLabel;
         private System.Windows.Forms.RichTextBox descriptionLabel;
+        private System.Windows.Forms.Button bidButton;
+        private System.Windows.Forms.NumericUpDown bidNumeric;
     }
 }

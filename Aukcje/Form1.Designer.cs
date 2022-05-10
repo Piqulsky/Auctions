@@ -47,6 +47,7 @@
             this.priceInput = new System.Windows.Forms.NumericUpDown();
             this.openAuctionFile = new System.Windows.Forms.OpenFileDialog();
             this.saveAuction = new System.Windows.Forms.SaveFileDialog();
+            this.nowyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -66,6 +67,7 @@
             // plikToolStripMenuItem
             // 
             this.plikToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.nowyToolStripMenuItem,
             this.otwórzToolStripMenuItem});
             this.plikToolStripMenuItem.Name = "plikToolStripMenuItem";
             this.plikToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
@@ -210,6 +212,13 @@
             // 
             this.saveAuction.DefaultExt = "auction";
             // 
+            // nowyToolStripMenuItem
+            // 
+            this.nowyToolStripMenuItem.Name = "nowyToolStripMenuItem";
+            this.nowyToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.nowyToolStripMenuItem.Text = "Nowy";
+            this.nowyToolStripMenuItem.Click += new System.EventHandler(this.nowyToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -229,7 +238,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Portal Aukcyjny";
+            this.Text = "Nowy Projekt";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
@@ -262,6 +271,7 @@
         private System.Windows.Forms.NumericUpDown priceInput;
         private System.Windows.Forms.OpenFileDialog openAuctionFile;
         private System.Windows.Forms.SaveFileDialog saveAuction;
+        private System.Windows.Forms.ToolStripMenuItem nowyToolStripMenuItem;
     }
 }
 
